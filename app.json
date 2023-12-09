@@ -1,7 +1,7 @@
 {
-    "name": "rgnk wabot",
+    "name": "kiran xer wabot",
     "description": "WhatsApp public/user bot",
-    "logo": "",
+    "logo": "https://i.imgur.com/4iAODFB.jpg",
     "keywords": ["WhatsApp"],
     "repository": "https://github.com/Kiranxer/deploy-raganork",
     "stack": "container",

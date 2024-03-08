@@ -1,9 +1,9 @@
 {
-    "name": "kiran xer wabot",
+    "name": "dinken xer wabot",
     "description": "WhatsApp public/user bot",
-    "logo": "https://i.imgur.com/4iAODFB.jpg",
+    "logo": "https://i.imgur.com/aWdDaz0.jpeg",
     "keywords": ["WhatsApp"],
-    "repository": "https://github.com/Kiranxer/deploy-raganork",
+    "repository": "https://github.com/dinkensr/deploy-raganork",
     "stack": "container",
     "env": {
         "HANDLERS": {

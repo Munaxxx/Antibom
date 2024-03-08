@@ -29,12 +29,12 @@
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
             "required": true,
-            "value":"setvar cmd onnum wrk avilla myre 😹👨🏻‍🦯"
+            "value":"setvar cmd onnum wrk avilla funde 😹👨🏻‍🦯"
         },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"Raganork pack;Author name"
+            "value":"ᴅɪɴᴋᴇɴ-ꜱᴇʀ"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -49,7 +49,7 @@
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"Raganork;Souravkl11;https://i.imgur.com/YchATyT.jpeg"
+            "value":"ᴅɪɴᴋᴇɴ;ᴅɪɴᴋᴇɴꜱʀ;https://i.imgur.com/aWdDaz0.jpeg"
         },
         "MODE": {
             "description": "Private or public",
@@ -59,7 +59,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919539060020"
+            "value":"919744108970"
         },
         "BLOCK_CHAT": {
             "description": "Block bot in specific groups, enter jids here sepereated with commas",
@@ -84,7 +84,7 @@
         "LANGUAGE": {
             "description": "Available languages: english,manglish,turkish",
             "required": false,
-            "value":"english"
+            "value":"manglish"
         },
         "AUTO_READ_STATUS": {
             "description": "View status updates automatically",

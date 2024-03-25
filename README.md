@@ -3,6 +3,6 @@
 
 <p align="center">
   <a href="https://www.instagram.com/whoois.zenitsu">
-    <img height="300" src="https://i.imgur.com/lGkriSF.jpeg">
+    <img height="300" src="https://i.imgur.com/WYh9QzP.jpeg">
   </a>
 </p>

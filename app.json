@@ -6,101 +6,87 @@
     "repository": "https://github.com/godzenitsu/deploy-raganork",
     "stack": "container",
     "env": {
-        "HANDLERS": {
-            "description": "Prefix of commands. Can be also false",
-            "required": true,
-            "value":".,"
-        },
-        "MULTI_HANDLERS": {
-            "description": "Use prefix as given handlers and also without handlers",
-            "required": true,
-            "value":"false"
-        },
-        "READ_MESSAGES": {
-            "description": "Bot will read all messages. Can be also false",
-            "required": true,
-            "value":"false"
-        },
-        "READ_COMMAND": {
-            "description": "Bot will read all commands (blue tick). Can be also false",
-            "required": true,
-            "value":"true"
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Exact name which you gave at the top",
-            "required": true,
-            "value":"setvar cmd onnum wrk avilla funde 😹👨🏻‍🦯"
-        },
-        "STICKER_DATA": {
-            "description": "Name of stickers created using bot. Can also split using ;",
-            "required": true,
-            "value":"ᴅɪɴᴋᴇɴ-ꜱᴇʀ"
-        },
-        "CHATBOT": {
-            "description": "AI chatbot",
-            "required": true,
-            "value":"off"
-        },
-        "BOT_NAME": {
-            "description": "Name of AI chatbot",
-            "required": true,
-            "value":"Raganork"
-        },
-        "AUDIO_DATA": {
-            "description": "Name of audio (take) name;name;image(url)",
-            "required": true,
-            "value":"𝘻𝘦𝘯𝘪𝘵𝘴𝘶;𝘳𝘢𝘨𝘢𝘯𝘳𝘰𝘬;https://i.imgur.com/WYh9QzP.jpeg"
-        },
-        "MODE": {
-            "description": "Private or public",
-            "required": true,
-            "value":"public"
-        },
-        "SUDO": {
-            "description": "These numbers can control your bot. seperate with commas",
-            "required": false,
-            "value":"919744108970"
-        },
-        "BLOCK_CHAT": {
-            "description": "Block bot in specific groups, enter jids here sepereated with commas",
-            "required": false,
-            "value":""
-        },
-        "REJECT_CALLS": {
-            "description": "Auto reject calls, true/false",
-            "required": false,
-            "value":"false"
-        },
-        "ALLOWED": {
-            "description": "Country codes allowed by antifake",
-            "required": false,
-            "value":"91,48"
-        },
-        "WARN": {
-            "description": "Warn limit",
-            "required": false,
-            "value":"3"
-        },
-        "LANGUAGE": {
-            "description": "Available languages: english,manglish,turkish",
-            "required": false,
-            "value":"manglish"
-        },
-        "AUTO_READ_STATUS": {
-            "description": "View status updates automatically",
-            "required": false,
-            "value":"true"
-        },
-        "ALIVE": {
-            "description": "Alive message, customize your alive msg by looking wiki",
-            "required": false,
-            "value":"_Bot is alive since {uptime}_"
-        },
-       "SESSION": {
-            "description": "Your session code, obtained by scanning QR",
-            "required": true         
-        }
+        "SESSION_ID": {
+      "description": "to run the bot",
+      "required": true,
+      "value": ""
     },
+    "HEROKU_API_KEY": {
+      "description": "For updating bot and setting vars remotely",
+      "required": true,
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Exact name which you gave at the top",
+      "required": true,
+      "value": ""
+    },
+    "WORKTYPE": {
+      "description": "enter bot mode must be public/private",
+      "required": true,
+      "value": "private"
+    },
+    "BOT_INFO": {
+      "description": "baasic bot configration",
+      "required": true,
+      "value": "INRL-BOT-MD;INRL;https://i.imgur.com/DyLAuEh.jpg"
+    },
+    "PREFIX": {
+      "description": "bot preifx  ., [.,!], false",
+      "required": true,
+      "value": "."
+    },
+    "AUDIO_DATA": {
+      "description": "audio metadata",
+      "required": true,
+      "value": "ᴍᴜꜱɪᴄ;ᴋɪᴅ;https://i.imgur.com/DyLAuEh.jpg"
+    },
+    "STICKER_DATA": {
+      "description": "sticker data",
+      "required": true,
+      "value": "inrl;inrl"
+    },
+    "PERSONAL_MESSAGE": {
+      "description": "personal greetings for first message ",
+      "required": true,
+      "value": "this is a bot, owner is bussy with something"
+    },
+    "REJECT_CALL": {
+      "description": "automatic reject call",
+      "required": true,
+      "value": "false"
+    },
+    "WARN": {
+      "description": "warn count",
+      "required": true,
+      "value": "4"
+    },
+    "SUDO": {
+      "description": "secounds owners of bot",
+      "required": true,
+      "value": "null"
+    },
+    "AJOIN": {
+      "description": "automatically join to all groups",
+      "required": true,
+      "value": "false"
+    },
+    "SAVE_STATUS": {
+      "description": "save all status message",
+      "required": true,
+      "value": "null"
+    },
+    "STATUS_VIEW": {
+      "description": "status views, values= true,only-view=jid, not-view=jid",
+      "required": true,
+      "value": "false"
+    },
+    "ERROR_MSG": {
+      "description": "send error messages to bot number",
+      "required": true,
+      "value": "true"
+    }
+  },
     "addons": [{
       "plan": "heroku-postgresql"
         }]

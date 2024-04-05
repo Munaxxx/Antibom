@@ -1,6 +1,6 @@
 FROM quay.io/souravkl11/rgnk-v3:latest
 
-RUN git clone https://github.com/souravkl11/raganork-md /railway/Raganork
-WORKDIR /railway/Raganork
+RUN git clone https://github.com/INR-L/fix /railway/b
+WORKDIR /railway/b
 RUN yarn install --network-concurrency 1
 CMD ["node", "index.js"]

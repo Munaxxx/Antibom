@@ -86,8 +86,5 @@
       "required": true,
       "value": "true"
     }
-  },
-    "addons": [{
-      "plan": "heroku-postgresql"
-        }]
   }
+}
